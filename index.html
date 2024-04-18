@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Best Islands | Survey Form</title>
+  </head>
+  <body>
+    <div class="layer">
+      <h1 id="title">Best Islands | Survey Form</h1>
+      <p id="description">In this survey form we want to find the best Islands en beachs to visit in our vacations</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">Name: <input id="name" type="text" placeholder="Give me your name" required /></label>
+          <label id="email-label">Email: <input id="email" type="email" placeholder="Give me your email" required /></label>
+          <label id="number-label">Age: <input id="number" type="number" min="13" max="120" placeholder="Say me your age" required /></label>
+          <label id="dropdown-label">Gender:
+            <select id="dropdown">
+              <option>(Choose one)</option>
+              <option>Female</option>
+              <option>Male</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset class="fieldset-margin">
+          <legend>Do you Agree or Disagree?</legend>
+          <div class="flex-center">
+            <input type="radio" name="agree-disagree" id="agree" value="agree" checked>
+            <label for="agree">Agree</label>
+          </div>
+          <div class="flex-center">
+            <input type="radio" name="agree-disagree" id="disagree" value="disagree">
+            <label for="disagree" class="block">Disagree</label>
+          </div>
+        </fieldset>
+        <fieldset class="fieldset-margin">
+          <legend>What are your hobbies?</legend>
+          <div class="flex-center">
+            <input type="checkbox" value="read" id="read">
+            <label for="read" class="block">Read a book</label>
+          </div>
+          <div class="flex-center">
+            <input type="checkbox" value="swimming" id="swimming">
+            <label for="swimming" class="block">Swimming</label>
+          </div>
+          <div class="flex-center">
+            <input type="checkbox" value="play-videogames" id="play-videogames">
+            <label for="play-videogames" class="block">Play Video Games</label>
+          </div>
+          <div class="flex-center">
+            <input type="checkbox" value="listen-music" id="listen-music">
+            <label for="listen-music" class="block">Listen Music</label>
+          </div>
+        </fieldset>
+        <fieldset class="tell-me">
+          <legend>Tell me if you have additional comments:</legend>
+          <textarea rows="4" cols="35" placeholder="comment here..."></textarea>
+        </fieldset>
+        <input id="submit" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
