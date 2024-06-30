@@ -1,18 +1,20 @@
-# Project Name
+# Survey Form
 
-> One paragraph statement about the project.
+> The following project was carried out with the purpose of create a Survey Form page about a look at best islands.
 
 ![Static Badge](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=FCC624&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=E95420&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/gnu%20bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=4EAA25&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=F05032&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=181717&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/visual%20studio%20code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/html%205-E34F26?style=for-the-badge&logo=html5&logoColor=E34F26&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/css%203-1572B6?style=for-the-badge&logo=css3&logoColor=1572B6&logoSize=auto&labelColor=white)
 
 ![screenshot](./app_screenshot_1.png)
 
-Additional description about the project and its features.
+The purpose of this project was to demonstrate the knowledge acquired in HTML5 and CSS3.
 
 ## Built With
 
-- HTML
-- CSS
-- git
+- HTML5
+- CSS3
+- VSCode
+- Git
+- GitHub
 
 ## Live Demo
 
@@ -20,8 +22,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Download this project using `git` and run the `index.html` file**
 
 To get a local copy up and running follow these simple example steps.
 
@@ -39,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Arístides José Molina Pérez**
 
 - GitHub: [@aristides1000](https://github.com/aristides1000)
 - Twitter: [@aristides_1000](https://twitter.com/aristides_1000)
@@ -57,10 +58,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- free Code Camp
 
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [CC0 1.0 Universal](LICENSE) licensed.
